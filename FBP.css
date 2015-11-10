@@ -38,6 +38,7 @@ html ._5vb_._5vb_.hasLeftCol .hasRightCol div#contentArea {
   width: auto !important;
 }
 #mainContainer #contentCol, #mainContainer #contentArea {
+  width: 100% !important;
   max-width: 1000px;
   min-width: 784px;
 }
@@ -85,4 +86,13 @@ html ._5vb_._5vb_.hasLeftCol .hasRightCol div#contentArea {
   .coverWrap {
     min-height: 400px;
   }
+}
+.fbTimelineCapsule ._5nb8 {
+  width: calc(100% - 338px);
+}
+.fbTimelineComposerCapsule, .fbTimelineComposerCapsule div {
+  width: 100% !important;
+}
+._4d6h._4p1p {
+  padding-right: 0;
 }
