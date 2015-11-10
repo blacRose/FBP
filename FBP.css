@@ -57,6 +57,9 @@ html ._5vb_._5vb_.hasLeftCol .hasRightCol div#contentArea {
     margin: 0 0 0 calc(192px + 20%) !important;
     max-width: 1280px;
   }
+  .timelineLayout #mainContainer #contentCol {
+    margin: 0 auto !important;
+  }
   #mainContainer #contentArea {
     max-width: 1280px;
   }
