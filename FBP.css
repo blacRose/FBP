@@ -1,0 +1,91 @@
+#topicFeedsNav, #appsNav, #interestsNav, #developerNav, #navItem_page_408502197558, #fbpurityinfobar, #navItem_6802152230, #rightCol, .fbSidebarGripper {
+  display: none;
+}
+* {
+  font-family: Calibri !important;
+}
+/*.groupJumpLayout #contentArea {
+  margin-top: 306px;
+}*/
+.fbJewel {
+  margin-left: 0 !important;
+}
+#FBPBUTT {
+  font-size: 12px !important;
+  color: #fff !important;
+  line-height: 27px !important;
+  position: relative;
+  text-decoration: none;
+  text-shadow: rgba(0, 0, 0, 0.498039) 0px -1px 0px;
+  top: -5px !important;
+  padding: 6px 11px 7px;
+  border-radius: 2px;
+}
+#FBPBUTT:hover {
+  background-color: rgba(0, 0, 0, 0.0980392);
+}
+#FBPBUTT:before {
+  background: #385490;
+  background: rgba(0, 0, 0, .1);
+  content: '';
+  height: 17px;
+  left: 1px;
+  position: absolute;
+  top: 5px;
+  width: 1px;
+}
+html ._5vb_._5vb_.hasLeftCol .hasRightCol div#contentArea {
+  width: auto;
+}
+#globalContainer {
+  width: auto !important;
+}
+#mainContainer #contentCol, #mainContainer #contentArea {
+  max-width: 1000px;
+  min-width: 784px;
+}
+.uiScaledImageContainer {
+  margin: 0 auto;
+}
+.userContentWrapper a[rel="theater"] {
+  margin: 0 auto;
+}
+.userContentWrapper .mtm {
+  width: 470px;
+  margin: 10px auto 0 auto;
+}
+@media screen and (min-width:1400px) {
+  #mainContainer #contentCol {
+    margin: 0 0 0 calc(192px + 20%) !important;
+    max-width: 1280px;
+  }
+  #mainContainer #contentArea {
+    max-width: 1280px;
+  }
+  #leftCol {
+    padding-left: 20% !important;
+  }
+}
+#headerArea {
+  width: 100% !important;
+}
+@media screen and (max-width:1700px) {
+  .coverWrap {
+    min-height: 275px;
+  }
+}
+@media screen and (max-width:1050px) {
+  .coverWrap {
+    min-height: 250px;
+  }
+}
+@media screen and (min-width:1700px) {
+  .coverWrap {
+    min-height: 320px;
+  }
+}
+@media screen and (min-width:2150px) {
+  .coverWrap {
+    min-height: 400px;
+  }
+}
