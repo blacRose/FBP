@@ -2,7 +2,7 @@
   display: none;
 }
 * {
-  font-family: Calibri !important;
+  font-family: -apple-system-font, Calibri !important;
 }
 .fbJewel {
   margin-left: 0 !important;
