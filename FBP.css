@@ -128,6 +128,6 @@ html ._5vb_._5vb_.hasLeftCol .hasRightCol div#contentArea {
 .fbTimelineComposerCapsule, .fbTimelineComposerCapsule div {
   width: auto !important;
 }
-.timelineLayout #contentArea {
+html body.timelineLayout #contentCol #contentArea {
   width: 100% !important;
 }
