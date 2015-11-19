@@ -121,3 +121,9 @@ html ._5vb_._5vb_.hasLeftCol .hasRightCol div#contentArea {
 ._3qx ._3ixn, ._4d3w .stageWrapper {
   background-color: rgba(0,0,0,0.5) !important;
 }
+.fbTimelineComposerCapsule, .fbTimelineComposerCapsule div {
+  width: auto !important;
+}
+.timelineLayout #contentArea {
+  width: 100% !important;
+}
