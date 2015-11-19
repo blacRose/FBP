@@ -122,6 +122,9 @@ html ._5vb_._5vb_.hasLeftCol .hasRightCol div#contentArea {
   border-radius: 10px 0 0 10px;
   background-color: rgba(0,0,0,0.5) !important;
 }
+._4d3w .photoUfiContainer {
+  border-radius: 0 10px 10px 0;
+}
 .fbTimelineComposerCapsule, .fbTimelineComposerCapsule div {
   width: auto !important;
 }
