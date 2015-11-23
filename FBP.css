@@ -118,7 +118,7 @@ html ._5vb_._5vb_.hasLeftCol .hasRightCol div#contentArea {
 .generic_dialog_modal, .generic_dialog_fixed_overflow {
   background: transparent;
 }
-._3qx ._3ixn, ._4d3w .stageWrapper {
+._3qx ._3ixn, ._4d3w .stageWrapper, ._4d3w .stageWrapper img {
   border-radius: 10px 0 0 10px;
   background-color: rgba(0,0,0,0.5) !important;
 }
