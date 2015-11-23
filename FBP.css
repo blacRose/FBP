@@ -44,6 +44,9 @@ html ._5vb_._5vb_.hasLeftCol .hasRightCol div#contentArea {
 .uiScaledImageContainer {
   margin: 0 auto;
 }
+.uiScaledImageContainer img {
+  border-radius: 10px;
+}
 .userContentWrapper a[rel="theater"] {
   margin: 0 auto;
 }
