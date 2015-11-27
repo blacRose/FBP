@@ -5,7 +5,8 @@
   font-family: -apple-system-font, Calibri !important;
 }
 .fbJewel {
-  margin-left: 0 !important;
+  margin-left: 5px !important;
+  margin-top: 0px !important;
 }
 #FBPBUTT {
   font-size: 12px !important;
@@ -14,19 +15,26 @@
   position: relative;
   text-decoration: none;
   text-shadow: rgba(0, 0, 0, 0.498039) 0px -1px 0px;
-  top: -5px !important;
-  padding: 6px 11px 7px;
+  top: -3px !important;
+  padding: 6px 11px 6px;
+  margin-right: 0px;
   border-radius: 2px;
 }
+._3zm-:hover a, ._3zm- a:focus, ._3zm- a._2myk {
+  background: transparent;
+}
+._3zm- a:hover {
+  background-color: rgba(0, 0, 0, 0.1) !important;
+}
 #FBPBUTT:hover {
-  background-color: rgba(0, 0, 0, 0.0980392);
+  background-color: rgba(0, 0, 0, 0.1);
 }
 #FBPBUTT:before {
   background: #385490;
-  background: rgba(0, 0, 0, .1);
+  background: rgba(0, 0, 0, 0.1);
   content: '';
   height: 17px;
-  left: 1px;
+  left: -1px;
   position: absolute;
   top: 5px;
   width: 1px;
@@ -133,4 +141,7 @@ html ._5vb_._5vb_.hasLeftCol .hasRightCol div#contentArea {
 }
 html body.timelineLayout #contentCol #contentArea {
   width: 100% !important;
+}
+._55bh div, .fbJewel {
+  float: left;
 }
