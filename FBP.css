@@ -45,9 +45,13 @@ html ._5vb_._5vb_.hasLeftCol .hasRightCol div#contentArea {
 #globalContainer {
   width: auto !important;
 }
-#mainContainer #contentCol, #mainContainer #contentArea {
+#mainContainer #contentCol, #mainContainer #contentArea, #globalContainer {
   max-width: 1000px;
   min-width: 784px;
+}
+._4k20 {
+  width: 100% !important;
+  text-align: center;
 }
 .uiScaledImageContainer {
   margin: 0 auto;
