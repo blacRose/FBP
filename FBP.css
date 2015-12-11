@@ -68,7 +68,7 @@ html ._5vb_._5vb_.hasLeftCol .hasRightCol div#contentArea {
 }
 @media screen and (min-width:1400px) {
   #mainContainer #contentCol {
-    margin: 0 0 0 calc(192px + 20%) !important;
+    margin: 0 0 0 192px !important;
     max-width: 1280px;
   }
   .timelineLayout #mainContainer #contentCol {
@@ -78,7 +78,7 @@ html ._5vb_._5vb_.hasLeftCol .hasRightCol div#contentArea {
     max-width: 1280px;
   }
   #leftCol {
-    padding-left: 20% !important;
+    padding-left: 0 !important;
   }
 }
 #headerArea {
@@ -148,4 +148,10 @@ html body.timelineLayout #contentCol #contentArea {
 }
 ._55bh div, .fbJewel {
   float: left;
+}
+._dcs, ._5v3q ._4-eo {
+  box-shadow: none !important;
+}
+._dcs .__c_:after, ._6l-:after, .scaledImageFitWidth {
+  border-color: transparent !important;
 }
