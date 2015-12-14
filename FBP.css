@@ -133,7 +133,7 @@ html ._5vb_._5vb_.hasLeftCol .hasRightCol div#contentArea {
 .generic_dialog_modal, .generic_dialog_fixed_overflow {
   background: transparent;
 }
-._3qx ._3ixn, ._4d3w .stageWrapper, ._4d3w .stageWrapper img {
+._3qx ._3ixn, ._4d3w .stageWrapper, .stageWrapper .stage ._4d3w .stageWrapper img {
   border-radius: 10px 0 0 10px;
   background-color: rgba(0,0,0,0.5) !important;
 }
@@ -154,4 +154,7 @@ html body.timelineLayout #contentCol #contentArea {
 }
 ._dcs .__c_:after, ._6l-:after, .scaledImageFitWidth {
   border-color: transparent !important;
+}
+div._4-u2.mvm._495i {
+  width: 175px !important;
 }
