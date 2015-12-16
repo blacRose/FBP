@@ -99,7 +99,7 @@ html ._5vb_._5vb_.hasLeftCol .hasRightCol div#contentArea {
     min-height: 320px;
   }
 }
-@media screen and (min-width:2150px) {
+@media screen and (min-width:2155px) {
   .coverWrap {
     min-height: 400px;
   }
@@ -215,4 +215,8 @@ div._4-u2.mvm._495i {
 }
 .phm #mainContainer #contentCol {
   margin: 0 !important;
+}
+._5r69 {
+  width: 469px;
+  margin: 0 auto;
 }
