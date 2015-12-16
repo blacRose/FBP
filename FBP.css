@@ -118,16 +118,43 @@ html ._5vb_._5vb_.hasLeftCol .hasRightCol div#contentArea {
   }
   body #mainContainer, body #streamPagelet, body #contentArea, body #contentCol, body #content, body #globalContainer {
     width: 100% !important;
-    max-width: 1940px !important;
+    max-width: 1550px !important;
   }
   html body #contentArea {
-    width: 1940px !important;
+    width: 1550px !important;
   }
   #streamPagelet, html body #contentArea {
     background-color: #e9eaed !important;
   }
   .async_saving ._5usc, #more_pager_pagelet_5670f212047cd9a07517991 {
     display: none !important;
+  }
+}
+@media screen and (min-width:2220px) {
+  body #mainContainer, body #streamPagelet, body #contentArea, body #contentCol, body #content, body #globalContainer {
+    width: 100% !important;
+    max-width: 1600px !important;
+  }
+  html body #contentArea {
+    width: 1600px !important;
+  }
+}
+@media screen and (min-width:2400px) {
+  body #mainContainer, body #streamPagelet, body #contentArea, body #contentCol, body #content, body #globalContainer {
+    width: 100% !important;
+    max-width: 1780px !important;
+  }
+  html body #contentArea {
+    width: 1780px !important;
+  }
+}
+@media screen and (min-width:2560px) {
+  body #mainContainer, body #streamPagelet, body #contentArea, body #contentCol, body #content, body #globalContainer {
+    width: 100% !important;
+    max-width: 1940px !important;
+  }
+  html body #contentArea {
+    width: 1940px !important;
   }
 }
 .fbTimelineCapsule ._5nb8 {
