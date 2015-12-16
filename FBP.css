@@ -56,7 +56,7 @@ html ._5vb_._5vb_.hasLeftCol .hasRightCol div#contentArea {
 .uiScaledImageContainer {
   margin: 0 auto;
 }
-.uiScaledImageContainer img {
+.uiScaledImageContainer img, ._46-i {
   border-radius: 10px;
 }
 .userContentWrapper a[rel="theater"] {
@@ -103,6 +103,27 @@ html ._5vb_._5vb_.hasLeftCol .hasRightCol div#contentArea {
   .coverWrap {
     min-height: 400px;
   }
+  #mainContainer #contentCol {
+    max-width: 2560px;
+  }
+  ._5pcb > div  {
+    width: calc(50% - 42px);
+    padding: 0 21px;
+    float: left;
+  }
+  body #mainContainer, body #streamPagelet, body #contentArea, body #contentCol, body #content, body #globalContainer {
+    width: 100% !important;
+    max-width: 1940px !important;
+  }
+  html body #contentArea {
+    width: 1940px !important;
+  }
+  #streamPagelet, html body #contentArea {
+    background-color: #e9eaed !important;
+  }
+  .async_saving ._5usc, #more_pager_pagelet_5670f212047cd9a07517991 {
+    display: none !important;
+  }
 }
 .fbTimelineCapsule ._5nb8 {
   width: calc(100% - 338px);
@@ -133,7 +154,7 @@ html ._5vb_._5vb_.hasLeftCol .hasRightCol div#contentArea {
 .generic_dialog_modal, .generic_dialog_fixed_overflow {
   background: transparent;
 }
-._3qx ._3ixn, ._4d3w .stageWrapper, .stageWrapper .stage ._4d3w .stageWrapper img {
+._3qx ._3ixn, ._4d3w .stageWrapper, .stageWrapper .stage, ._4d3w .stageWrapper img {
   border-radius: 10px 0 0 10px;
   background-color: rgba(0,0,0,0.5) !important;
 }
@@ -157,4 +178,9 @@ html body.timelineLayout #contentCol #contentArea {
 }
 div._4-u2.mvm._495i {
   width: 175px !important;
+  top: -31px;
+  margin-left: 8px;
+}
+.phm #mainContainer #contentCol {
+  margin: 0 !important;
 }
