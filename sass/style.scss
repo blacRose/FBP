@@ -4,6 +4,9 @@
 * {
   font-family: -apple-system-font, Calibri !important;
 }
+*::after {
+  border: none !important;
+}
 .fbJewel {
   margin-left: 5px !important;
   margin-top: 0px !important;
@@ -56,8 +59,15 @@ html ._5vb_._5vb_.hasLeftCol .hasRightCol div#contentArea {
 .uiScaledImageContainer {
   margin: 0 auto;
 }
-.uiScaledImageContainer img, ._46-i {
+.uiScaledImageContainer img, ._46-i{
   border-radius: 10px;
+}
+._33c ._33h, ._5sq7 {
+  border-radius: 5px;
+}
+._33c ._33h::after, ._33c ._33h::before, ._5sq7::after, ._5sq7::before, ._54ru::after, ._54ru::before {
+  background-color: transparent !important;
+  border-color: transparent !important;
 }
 .userContentWrapper a[rel="theater"] {
   margin: 0 auto;
@@ -108,7 +118,7 @@ html ._5vb_._5vb_.hasLeftCol .hasRightCol div#contentArea {
   }
   ._5pcb > div  {
     width: calc(50% - 42px);
-    padding: 0 21px;
+    padding-right: 42px;
     float: left;
   }
   .groupJumpLayout ._5pcb > div  {
