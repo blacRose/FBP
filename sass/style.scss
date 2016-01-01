@@ -3,7 +3,7 @@
 }
 * {
   font-family: -apple-system-font, Calibri !important;
-	&::after {
+	&:after {
   	border: none !important;
 	}
 }
@@ -44,14 +44,15 @@
 	  background-color: rgba(0, 0, 0, 0.1) !important;
 	}
 }
-#globalContainer {
-	&, html ._5vb_._5vb_.hasLeftCol .hasRightCol div#contentArea {
-	  width: auto !important;
-	}
-	&, #mainContainer #contentCol, #mainContainer #contentArea {
-	  max-width: 1000px !important;
-	  min-width: 784px !important;
-	}
+html ._5vb_._5vb_.hasLeftCol .hasRightCol div#contentArea {
+  width: auto !important;
+}
+#globalContainer{
+  width: auto !important;
+}
+#globalContainer, #mainContainer #contentCol, #mainContainer #contentArea {
+  max-width: 1000px !important;
+  min-width: 784px !important;
 }
 ._4k20 {
   width: 100% !important;
@@ -59,17 +60,11 @@
 }
 .uiScaledImageContainer {
   margin: 0 auto;
-	& img, ._46-i{
-	  border-radius: 10px;
-	}
 }
-._33c ._33h {
-	  border-radius: 5px;
-	&::after, &::before, ._5sq7::after, ._5sq7::before, ._54ru::after, ._54ru::before {
-	  background-color: transparent !important;
-	  border-color: transparent !important;
-	}
+._46-i, .uiScaledImageContainer img{
+  border-radius: 10px;
 }
+
 .userContentWrapper {
 	& a[rel="theater"] {
 	  margin: 0 auto;
@@ -88,7 +83,7 @@
     margin: 0 auto !important;
   }
   #mainContainer #contentArea {
-    max-width: 1280px;
+    max-width: 1280px !important;
   }
   #leftCol {
     padding-left: 0 !important;
@@ -99,43 +94,38 @@
 }
 .coverWrap {
 	@media screen and (max-width:1700px) {
-	  & {
-	    min-height: 275px;
-	  }
+    min-height: 275px !important;
 	}
 	@media screen and (max-width:1050px) {
-	  & {
-	    min-height: 250px;
-	  }
+    min-height: 250px !important;
 	}
 	@media screen and (min-width:1700px) {
-		& {
-	    min-height: 320px;
-	  }
+    min-height: 320px !important;
 	}
 	@media screen and (min-width:2155px) {
-	  & {
-	    min-height: 400px;
-	  }
-	  #mainContainer #contentCol {
-	    max-width: 2560px;
-	  }
-	  ._5pcb > div  {
-	    width: calc(50% - 42px);
-	    padding-right: 42px;
-	    float: left;
-	  }
-	  .groupJumpLayout ._5pcb > div  {
-	    width: 100% !important;
-	    padding: 0 !important;
-	    float: none !important;
-	  }
-	  .async_saving ._5usc, #more_pager_pagelet_5670f212047cd9a07517991 {
-	    display: none !important;
-	  }
+    min-height: 400px !important;
 	}
 }
-body #mainContainer, body #streamPagelet, body #contentArea, body #contentCol, body #content, body #globalContainer {
+@media screen and (min-width:2155px) {
+  #mainContainer #contentCol {
+    max-width: 2560px !important;
+  }
+  ._5pcb > div  {
+    width: calc(50% - 42px) !important;
+    padding-right: 42px;
+    float: left;
+  }
+  .groupJumpLayout ._5pcb > div  {
+    width: 100% !important;
+    padding: 0 !important;
+    float: none !important;
+  }
+  .async_saving ._5usc, #more_pager_pagelet_5670f212047cd9a07517991 {
+    display: none !important;
+  }
+}
+
+body #mainContainer, body #streamPagelet, body #mainContainer #contentArea, body #mainContainer #contentCol, body #content, body #globalContainer {
 	@media screen and (min-width:2155px) {
 		width: 100% !important;
 		max-width: 1550px !important;
@@ -151,9 +141,10 @@ body #mainContainer, body #streamPagelet, body #contentArea, body #contentCol, b
 	}
 }
 
-html body #contentArea {
+html body #mainContainer #contentArea {
 	@media screen and (min-width:2155px) {
     width: 1550px !important;
+		max-width: 2000px !important;
 	}
 	@media screen and (min-width:2220px) {
 		width: 1600px !important;
@@ -170,7 +161,7 @@ html body #contentArea {
 	& ._5nb8 {
 	  width: calc(100% - 338px);
 	}
-	&, & div {
+	&, div {
 	  width: auto !important;
 	}
 }
@@ -197,11 +188,9 @@ html body #contentArea {
 .generic_dialog_modal, .generic_dialog_fixed_overflow {
   background: transparent;
 }
-.stageWrapper {
-	._3qx ._3ixn, & .stage, & img {
-	  border-radius: 10px 0 0 10px;
-	  background-color: rgba(0,0,0,0.2) !important;
-	}
+._3qx ._3ixn, .stageWrapper .stage, .stageWrapper img {
+  border-radius: 10px 0 0 10px;
+  background-color: rgba(0,0,0,0.2) !important;
 }
 ._4d3w .photoUfiContainer {
   border-radius: 0 10px 10px 0;

@@ -1,24 +1,19 @@
-/* line 1, sass/style.scss */
 #topicFeedsNav, #appsNav, #interestsNav, #developerNav, #navItem_page_408502197558, #fbpurityinfobar, #navItem_6802152230, #rightCol, .fbSidebarGripper {
   display: none;
 }
 
-/* line 4, sass/style.scss */
 * {
   font-family: -apple-system-font, Calibri !important;
 }
-/* line 6, sass/style.scss */
-*::after {
+*:after {
   border: none !important;
 }
 
-/* line 10, sass/style.scss */
 .fbJewel {
   margin-left: 5px !important;
   margin-top: 0px !important;
 }
 
-/* line 14, sass/style.scss */
 #FBPBUTT {
   font-size: 12px !important;
   color: #fff !important;
@@ -31,11 +26,9 @@
   margin-right: 0px;
   border-radius: 2px;
 }
-/* line 25, sass/style.scss */
 #FBPBUTT:hover {
   background-color: rgba(0, 0, 0, 0.1);
 }
-/* line 28, sass/style.scss */
 #FBPBUTT:before {
   background: #385490;
   background: rgba(0, 0, 0, 0.1);
@@ -47,198 +40,166 @@
   width: 1px;
 }
 
-/* line 40, sass/style.scss */
 ._3zm-:hover a, ._3zm- a:focus, ._3zm- a._2myk {
   background: transparent;
 }
-/* line 43, sass/style.scss */
 ._3zm- a:hover {
   background-color: rgba(0, 0, 0, 0.1) !important;
 }
 
-/* line 48, sass/style.scss */
-#globalContainer, #globalContainer html ._5vb_._5vb_.hasLeftCol .hasRightCol div#contentArea {
+html ._5vb_._5vb_.hasLeftCol .hasRightCol div#contentArea {
   width: auto !important;
 }
-/* line 51, sass/style.scss */
-#globalContainer, #globalContainer #mainContainer #contentCol, #globalContainer #mainContainer #contentArea {
+
+#globalContainer {
+  width: auto !important;
+}
+
+#globalContainer, #mainContainer #contentCol, #mainContainer #contentArea {
   max-width: 1000px !important;
   min-width: 784px !important;
 }
 
-/* line 56, sass/style.scss */
 ._4k20 {
   width: 100% !important;
   text-align: center;
 }
 
-/* line 60, sass/style.scss */
 .uiScaledImageContainer {
   margin: 0 auto;
 }
-/* line 62, sass/style.scss */
-.uiScaledImageContainer img, .uiScaledImageContainer ._46-i {
+
+._46-i, .uiScaledImageContainer img {
   border-radius: 10px;
 }
 
-/* line 66, sass/style.scss */
-._33c ._33h {
-  border-radius: 5px;
-}
-/* line 68, sass/style.scss */
-._33c ._33h::after, ._33c ._33h::before, ._33c ._33h ._5sq7::after, ._33c ._33h ._5sq7::before, ._33c ._33h ._54ru::after, ._33c ._33h ._54ru::before {
-  background-color: transparent !important;
-  border-color: transparent !important;
-}
-
-/* line 74, sass/style.scss */
 .userContentWrapper a[rel="theater"] {
   margin: 0 auto;
 }
-/* line 77, sass/style.scss */
 .userContentWrapper .mtm {
   width: 470px;
   margin: 10px auto 0 auto;
 }
 
 @media screen and (min-width: 1400px) {
-  /* line 83, sass/style.scss */
   #mainContainer #contentCol {
     margin: 0 0 0 192px !important;
     max-width: 1280px;
   }
 
-  /* line 87, sass/style.scss */
   .timelineLayout #mainContainer #contentCol {
     margin: 0 auto !important;
   }
 
-  /* line 90, sass/style.scss */
   #mainContainer #contentArea {
-    max-width: 1280px;
+    max-width: 1280px !important;
   }
 
-  /* line 93, sass/style.scss */
   #leftCol {
     padding-left: 0 !important;
   }
 }
-/* line 97, sass/style.scss */
 #headerArea {
   width: 100% !important;
 }
 
 @media screen and (max-width: 1700px) {
-  /* line 102, sass/style.scss */
   .coverWrap {
-    min-height: 275px;
+    min-height: 275px !important;
   }
 }
 @media screen and (max-width: 1050px) {
-  /* line 107, sass/style.scss */
   .coverWrap {
-    min-height: 250px;
+    min-height: 250px !important;
   }
 }
 @media screen and (min-width: 1700px) {
-  /* line 112, sass/style.scss */
   .coverWrap {
-    min-height: 320px;
+    min-height: 320px !important;
   }
 }
 @media screen and (min-width: 2155px) {
-  /* line 117, sass/style.scss */
   .coverWrap {
-    min-height: 400px;
-  }
-  /* line 120, sass/style.scss */
-  .coverWrap #mainContainer #contentCol {
-    max-width: 2560px;
-  }
-  /* line 123, sass/style.scss */
-  .coverWrap ._5pcb > div {
-    width: calc(50% - 42px);
-    padding-right: 42px;
-    float: left;
-  }
-  /* line 128, sass/style.scss */
-  .coverWrap .groupJumpLayout ._5pcb > div {
-    width: 100% !important;
-    padding: 0 !important;
-    float: none !important;
-  }
-  /* line 133, sass/style.scss */
-  .coverWrap .async_saving ._5usc, .coverWrap #more_pager_pagelet_5670f212047cd9a07517991 {
-    display: none !important;
+    min-height: 400px !important;
   }
 }
 
 @media screen and (min-width: 2155px) {
-  /* line 138, sass/style.scss */
-  body #mainContainer, body #streamPagelet, body #contentArea, body #contentCol, body #content, body #globalContainer {
+  #mainContainer #contentCol {
+    max-width: 2560px !important;
+  }
+
+  ._5pcb > div {
+    width: calc(50% - 42px) !important;
+    padding-right: 42px;
+    float: left;
+  }
+
+  .groupJumpLayout ._5pcb > div {
+    width: 100% !important;
+    padding: 0 !important;
+    float: none !important;
+  }
+
+  .async_saving ._5usc, #more_pager_pagelet_5670f212047cd9a07517991 {
+    display: none !important;
+  }
+}
+@media screen and (min-width: 2155px) {
+  body #mainContainer, body #streamPagelet, body #mainContainer #contentArea, body #mainContainer #contentCol, body #content, body #globalContainer {
     width: 100% !important;
     max-width: 1550px !important;
   }
 }
 @media screen and (min-width: 2220px) {
-  /* line 138, sass/style.scss */
-  body #mainContainer, body #streamPagelet, body #contentArea, body #contentCol, body #content, body #globalContainer {
+  body #mainContainer, body #streamPagelet, body #mainContainer #contentArea, body #mainContainer #contentCol, body #content, body #globalContainer {
     max-width: 1600px !important;
   }
 }
 @media screen and (min-width: 2400px) {
-  /* line 138, sass/style.scss */
-  body #mainContainer, body #streamPagelet, body #contentArea, body #contentCol, body #content, body #globalContainer {
+  body #mainContainer, body #streamPagelet, body #mainContainer #contentArea, body #mainContainer #contentCol, body #content, body #globalContainer {
     max-width: 1780px !important;
   }
 }
 @media screen and (min-width: 2560px) {
-  /* line 138, sass/style.scss */
-  body #mainContainer, body #streamPagelet, body #contentArea, body #contentCol, body #content, body #globalContainer {
+  body #mainContainer, body #streamPagelet, body #mainContainer #contentArea, body #mainContainer #contentCol, body #content, body #globalContainer {
     max-width: 1940px !important;
   }
 }
 
 @media screen and (min-width: 2155px) {
-  /* line 154, sass/style.scss */
-  html body #contentArea {
+  html body #mainContainer #contentArea {
     width: 1550px !important;
+    max-width: 2000px !important;
   }
 }
 @media screen and (min-width: 2220px) {
-  /* line 154, sass/style.scss */
-  html body #contentArea {
+  html body #mainContainer #contentArea {
     width: 1600px !important;
   }
 }
 @media screen and (min-width: 2400px) {
-  /* line 154, sass/style.scss */
-  html body #contentArea {
+  html body #mainContainer #contentArea {
     width: 1780px !important;
   }
 }
 @media screen and (min-width: 2560px) {
-  /* line 154, sass/style.scss */
-  html body #contentArea {
+  html body #mainContainer #contentArea {
     width: 1940px !important;
   }
 }
 
-/* line 170, sass/style.scss */
 .fbTimelineCapsule ._5nb8 {
   width: calc(100% - 338px);
 }
-/* line 173, sass/style.scss */
 .fbTimelineCapsule, .fbTimelineCapsule div {
   width: auto !important;
 }
 
-/* line 177, sass/style.scss */
 ._4d6h._4p1p {
   padding: 10px 0 !important;
 }
 
-/* line 180, sass/style.scss */
 .dialog_body {
   position: fixed;
   bottom: 0;
@@ -250,64 +211,52 @@
   display: block;
 }
 
-/* line 190, sass/style.scss */
 .pop_container_advanced {
   background: transparent;
 }
 
-/* line 193, sass/style.scss */
 .pop_content .dialog_content {
   background: transparent;
   border: none;
 }
 
-/* line 197, sass/style.scss */
 .generic_dialog_modal, .generic_dialog_fixed_overflow {
   background: transparent;
 }
 
-/* line 201, sass/style.scss */
-.stageWrapper ._3qx ._3ixn, .stageWrapper .stage, .stageWrapper img {
+._3qx ._3ixn, .stageWrapper .stage, .stageWrapper img {
   border-radius: 10px 0 0 10px;
   background-color: rgba(0, 0, 0, 0.2) !important;
 }
 
-/* line 206, sass/style.scss */
 ._4d3w .photoUfiContainer {
   border-radius: 0 10px 10px 0;
 }
 
-/* line 210, sass/style.scss */
 .timelineLayout #contentCol #contentArea {
   width: 100% !important;
 }
-/* line 213, sass/style.scss */
 .phm #mainContainer #contentCol {
   margin: 0 !important;
 }
 
-/* line 217, sass/style.scss */
 ._55bh div, .fbJewel {
   float: left;
 }
 
-/* line 221, sass/style.scss */
 ._dcs, ._dcs ._5v3q ._4-eo {
   box-shadow: none !important;
 }
-/* line 224, sass/style.scss */
 ._dcs .__c_:after, ._dcs ._6l-:after, ._dcs .scaledImageFitWidth {
   border-color: transparent !important;
 }
 
-/* line 228, sass/style.scss */
 div._4-u2.mvm._495i {
   width: 175px !important;
   top: -31px;
   margin-left: 8px;
 }
 
-/* line 233, sass/style.scss */
 ._5r69 {
   width: 469px;
   margin: 0 auto;
