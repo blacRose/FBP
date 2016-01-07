@@ -1,4 +1,4 @@
-#topicFeedsNav, #appsNav, #interestsNav, #developerNav, #navItem_page_408502197558, #fbpurityinfobar, #navItem_6802152230, #rightCol, .fbSidebarGripper {
+#topicFeedsNav, #appsNav, #interestsNav, #developerNav, #navItem_page_408502197558, #fbpurityinfobar, #navItem_6802152230, #rightCol, .fbSidebarGripper, ._1vc- {
   display: none;
 }
 
@@ -47,7 +47,7 @@
   background-color: rgba(0, 0, 0, 0.1) !important;
 }
 
-html ._5vb_._5vb_.hasLeftCol .hasRightCol div#contentArea {
+html ._5vb_._5vb_.hasLeftCol .hasRightCol div#contentArea, .fbTimelineTwoColumn {
   width: auto !important;
 }
 
@@ -224,9 +224,13 @@ html ._5vb_._5vb_.hasLeftCol .hasRightCol div#contentArea {
   background: transparent;
 }
 
-._3qx ._3ixn, .stageWrapper .stage, .stageWrapper img {
+._3qx ._3ixn, .stageWrapper .stage {
   border-radius: 10px 0 0 10px;
   background-color: rgba(0, 0, 0, 0.2) !important;
+}
+
+.stageWrapper img {
+  border-radius: 10px;
 }
 
 ._4d3w .photoUfiContainer {
