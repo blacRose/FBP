@@ -47,11 +47,7 @@
   background-color: rgba(0, 0, 0, 0.1) !important;
 }
 
-html ._5vb_._5vb_.hasLeftCol .hasRightCol div#contentArea, .fbTimelineTwoColumn {
-  width: auto !important;
-}
-
-#globalContainer {
+html ._5vb_._5vb_.hasLeftCol .hasRightCol div#contentArea, .fbTimelineTwoColumn, #globalContainer {
   width: auto !important;
 }
 
@@ -63,10 +59,6 @@ html ._5vb_._5vb_.hasLeftCol .hasRightCol div#contentArea, .fbTimelineTwoColumn 
 ._4k20 {
   width: 100% !important;
   text-align: center;
-}
-
-.uiScaledImageContainer {
-  margin: 0 auto;
 }
 
 ._46-i, .uiScaledImageContainer img {
@@ -276,7 +268,7 @@ div._4-u2.mvm._495i {
   margin-left: 8px;
 }
 
-._5r69 {
+._5r69, .uiScaledImageContainer, ._5v3q ._4-eo {
   width: 469px;
   margin: 0 auto;
 }
