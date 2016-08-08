@@ -52,7 +52,7 @@ html ._5vb_._5vb_.hasLeftCol .hasRightCol div#contentArea, .fbTimelineTwoColumn,
   max-width: 1000px !important;
   min-width: 784px !important;
 }
-._4k20 {
+._4k20, .UFICommentContent ._2rn3, UFICommentContent ._4-eo {
   width: 100% !important;
   text-align: center;
 }
@@ -61,6 +61,14 @@ html ._5vb_._5vb_.hasLeftCol .hasRightCol div#contentArea, .fbTimelineTwoColumn,
 }
 .userContentWrapper a[rel="theater"], ._6l-, ._6m2, .clearfix {
   margin: 0 auto;
+}
+._42nr>span {
+	&:first-child, &:last-child {
+		width: 10em;
+	}
+	&:first-child {
+		margin: 0 0 0 40%;
+	}
 }
 .userContentWrapper {
 	.mtm {
