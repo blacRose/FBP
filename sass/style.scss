@@ -7,6 +7,9 @@
   	border: none !important;
 	}
 }
+._42ef {
+	overflow: hidden;
+}
 ._5r69 {
 	width: 80%;
 	.clearfix.mtm {
@@ -55,8 +58,11 @@ html ._5vb_._5vb_.hasLeftCol .hasRightCol div#contentArea, .fbTimelineTwoColumn,
   width: auto !important;
 }
 #globalContainer, #mainContainer #contentCol, #mainContainer #contentArea {
-  max-width: 1000px !important;
+  max-width: 1012px !important;
   min-width: 784px !important;
+}
+#globalContainer {
+	padding-right: 40% !important;
 }
 ._4k20, .UFICommentContent ._2rn3, UFICommentContent ._4-eo {
   width: 100% !important;
@@ -67,6 +73,16 @@ html ._5vb_._5vb_.hasLeftCol .hasRightCol div#contentArea, .fbTimelineTwoColumn,
 }
 .userContentWrapper a[rel="theater"], ._6l-, ._6m2, .clearfix {
   margin: 0 auto;
+}
+.stagewrapper {
+	._42nr>span {
+		&:first-child, &:last-child {
+			width: 10em;
+		}
+		&:first-child {
+			margin: 0 0 0 20%;
+		}
+	}
 }
 ._42nr>span {
 	&:first-child, &:last-child {
