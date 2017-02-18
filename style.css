@@ -1,12 +1,16 @@
-#topicFeedsNav, #appsNav, #interestsNav, #developerNav, #navItem_page_408502197558, #navItem_357937250942127, #navItem_188619144602540, #navItem_400915586638539, #navItem_983686418327131, #navItem_230259100322928, #fbpurityinfobar, #navItem_6802152230, #navItem_285162308271788, #rightCol, .fbSidebarGripper, ._1vc- {
+._5pcb #substream_0, ._5pcb #substream_1, ._5pcb h2, #topicFeedsNav, #appsNav, #interestsNav, #developerNav, #navItem_page_408502197558, #navItem_357937250942127, #navItem_188619144602540, #navItem_400915586638539, #navItem_983686418327131, #navItem_230259100322928, #fbpurityinfobar, #navItem_6802152230, #navItem_285162308271788, #rightCol, .fbSidebarGripper, ._1vc- {
   display: none;
 }
 
 * {
-  font-family: -apple-system-font, Calibri !important;
+  font-family: -apple-system-font, Calibri, sans-serif !important;
 }
 *:after {
   border: none !important;
+}
+
+#contentCol * {
+  font-family: Athelas, serif !important;
 }
 
 ._42ef {
@@ -63,12 +67,7 @@ html ._5vb_._5vb_.hasLeftCol .hasRightCol div#contentArea, .fbTimelineTwoColumn,
 }
 
 #globalContainer, #mainContainer #contentCol, #mainContainer #contentArea {
-  max-width: 1012px !important;
   min-width: 784px !important;
-}
-
-#globalContainer {
-  padding-right: 40% !important;
 }
 
 ._4k20, .UFICommentContent ._2rn3, UFICommentContent ._4-eo {
@@ -106,15 +105,10 @@ html ._5vb_._5vb_.hasLeftCol .hasRightCol div#contentArea, .fbTimelineTwoColumn,
 @media screen and (min-width: 1400px) {
   #mainContainer #contentCol {
     margin: 0 0 0 192px !important;
-    max-width: 1280px;
   }
 
   .timelineLayout #mainContainer #contentCol {
     margin: 0 auto !important;
-  }
-
-  #mainContainer #contentArea {
-    max-width: 1280px !important;
   }
 
   #leftCol {
@@ -147,14 +141,21 @@ html ._5vb_._5vb_.hasLeftCol .hasRightCol div#contentArea, .fbTimelineTwoColumn,
 }
 
 @media screen and (min-width: 2155px) {
-  #mainContainer #contentCol {
-    max-width: 2560px !important;
+  ._5pcb > div > div > div > div > div > div {
+    display: flex;
+    flex: 1 0 25%;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    flex-container: center;
+  }
+  ._5pcb > div > div > div > div > div > div > div {
+    max-width: 50%;
+    min-width: 15%;
   }
 
-  ._5pcb > div {
-    width: calc(50% - 42px) !important;
-    padding-right: 42px;
-    float: left;
+  #mainContainer #contentCol {
+    max-width: calc(100% - 420px) !important;
   }
 
   .groupJumpLayout ._5pcb > div {
@@ -170,44 +171,12 @@ html ._5vb_._5vb_.hasLeftCol .hasRightCol div#contentArea, .fbTimelineTwoColumn,
 @media screen and (min-width: 2155px) {
   body #mainContainer, body #streamPagelet, body #mainContainer #contentArea, body #mainContainer #contentCol, body #content, body #globalContainer {
     width: 100% !important;
-    max-width: 1550px !important;
-  }
-}
-@media screen and (min-width: 2220px) {
-  body #mainContainer, body #streamPagelet, body #mainContainer #contentArea, body #mainContainer #contentCol, body #content, body #globalContainer {
-    max-width: 1600px !important;
-  }
-}
-@media screen and (min-width: 2400px) {
-  body #mainContainer, body #streamPagelet, body #mainContainer #contentArea, body #mainContainer #contentCol, body #content, body #globalContainer {
-    max-width: 1780px !important;
-  }
-}
-@media screen and (min-width: 2560px) {
-  body #mainContainer, body #streamPagelet, body #mainContainer #contentArea, body #mainContainer #contentCol, body #content, body #globalContainer {
-    max-width: 1940px !important;
   }
 }
 
 @media screen and (min-width: 2155px) {
   html body #mainContainer #contentArea {
-    width: 1550px !important;
-    max-width: 2000px !important;
-  }
-}
-@media screen and (min-width: 2220px) {
-  html body #mainContainer #contentArea {
-    width: 1600px !important;
-  }
-}
-@media screen and (min-width: 2400px) {
-  html body #mainContainer #contentArea {
-    width: 1780px !important;
-  }
-}
-@media screen and (min-width: 2560px) {
-  html body #mainContainer #contentArea {
-    width: 1940px !important;
+    width: 100% !important;
   }
 }
 
