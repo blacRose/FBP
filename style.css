@@ -9,8 +9,12 @@
   border: none !important;
 }
 
-._5pbw, ._5pbx {
+html body {
   font-size: 16px;
+}
+
+._5pbw, ._5pbx {
+  font-size: 18px;
 }
 
 #contentCol * {
