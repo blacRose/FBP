@@ -13,6 +13,10 @@ html body {
   font-size: 16px;
 }
 
+._14i5 {
+  right: 0;
+}
+
 ._5pbw, ._5pbx {
   font-size: 18px;
 }
@@ -45,6 +49,7 @@ html body {
   position: relative;
   text-decoration: none;
   text-shadow: rgba(0, 0, 0, 0.49804) 0px -1px 0px;
+  font-weight: 600;
   padding: 6px 11px 6px;
   margin-right: 0px;
   border-radius: 2px;
@@ -74,8 +79,9 @@ html ._5vb_._5vb_.hasLeftCol .hasRightCol div#contentArea, .fbTimelineTwoColumn,
   width: auto !important;
 }
 
-#globalContainer, #mainContainer #contentCol, #mainContainer #contentArea {
+#globalContainer, body #mainContainer #contentCol, #mainContainer #contentArea {
   min-width: 784px !important;
+  margin: auto !important;
 }
 
 ._4k20, .UFICommentContent ._2rn3, UFICommentContent ._4-eo {
@@ -87,7 +93,7 @@ html ._5vb_._5vb_.hasLeftCol .hasRightCol div#contentArea, .fbTimelineTwoColumn,
   border-radius: 10px;
 }
 
-.userContentWrapper a[rel="theater"], ._6l-, ._6m2, .clearfix {
+.userContentWrapper a[rel="theater"], ._6l-, ._6m2, .clearfix, ._2a2q {
   margin: 0 auto;
 }
 
