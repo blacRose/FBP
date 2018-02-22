@@ -1,0 +1,101 @@
+/* Whole page */
+
+._5pcb #substream_0, ._5pcb #substream_1, ._5pcb h2, #FBPNewsAlert, #topicFeedsNav,, .fbChatSidebarBody, #appsNav, #interestsNav, #developerNav, #navItem_page_408502197558, #navItem_357937250942127, #navItem_188619144602540, #navItem_400915586638539, #navItem_983686418327131, #navItem_230259100322928, #fbpurityinfobar, #navItem_6802152230, #navItem_285162308271788, .fbSidebarGripper, ._1vc-, ._5umn, #rightCol, ._r_m {
+	display: none !important;
+}
+
+* {
+	font-family: -apple-system-font, Calibri, sans-serif !important;
+	&:after {
+		border: none !important;
+	}
+	#contentCol & {
+		font-family: Athelas, serif !important;
+		font-size: 18px;
+	}
+}
+
+html body {
+	font-size: 16px;
+}
+
+/* GRID CONTAINER!! */
+
+._42nr, #content_container, #mainContainer, .pagesTimelineLayout #mainContainer > div, .pagesTimelineLayout #mainContainer > div #content_container > div, .f_1iseox4w4t .fb_content > div.clearfix, .f_1iseox4w4t #content_container > div.clearfix {
+	display: grid !important;
+	/* Defaulting to two columns. Override below */
+	grid-template-columns: 1fr 1fr;
+}
+
+#mainContainer, #globalContainer, ._2yq #globalContainer, #entity_sidebar, .f_1iseox4w4t #u_0_4._2pie, .f_1iseox4w4t ._2pie._14i5._1qkx, .f_1iseox4w4t ._1qkq, #u_0_0._r_m {
+	position: static;
+	margin: 0;
+	padding: 0;
+	width: 100% !important;
+}
+/* Top of page */
+
+.fbJewel {
+	margin-left: -17px !important;
+	margin-top: 10px !important;
+	#FBPBUTT {
+		font-size: 12px !important;
+		color: #fff !important;
+		line-height: 27px !important;
+		top: -2px !important;
+		left: 0px;
+		position: relative;
+		text-decoration: none;
+		padding: 6px 11px 6px;
+		margin-right: 0px;
+		border-radius: 2px;
+		&.jewelButton {
+			font-weight: 600 !important;
+		}
+		&:hover {
+			background-color: rgba(0, 0, 0, 0.1);
+		}
+		&:before {
+			background: #385490;
+			background: rgba(0, 0, 0, 0.1);
+			content: '';
+			height: 17px;
+			left: -1px;
+			position: absolute;
+			top: 5px;
+			width: 1px;
+		}
+	}
+}
+
+#mainContainer, .pagesTimelineLayout #mainContainer > div, .pagesTimelineLayout #mainContainer > div #content_container > div, .f_1iseox4w4t .fb_content > div.clearfix, .f_1iseox4w4t #content_container > div.clearfix, body .newsfeed #mainContainer {
+	grid-template-columns: 180px 1fr 10px;
+}
+
+._3og5 #mainContainer, ._5wel #mainContainer, ._2yq #mainContainer {
+	grid-template-columns: 0 1fr 10px;
+}
+
+body.newsfeed #mainContainer {
+	grid-template-columns: 180px 1fr 10px;
+}
+
+#content_container {
+	grid-template-columns: 1fr 50px;
+}
+
+/* Right chat bar cleanup */
+._4oes, ._51x_, .fbChatSidebar {
+	box-shadow: none !important;
+	background: transparent !important;
+	border: none !important;
+}
+
+/* Like bar */
+
+._42nr {
+	grid-template-columns: 1fr 7em 7em 7em 1fr;
+	&:before {
+		content: " ";
+	}
+}
