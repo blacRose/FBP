@@ -1,0 +1,58 @@
+.fbJewel {
+  margin-left: -17px !important;
+  margin-top: 10px !important;
+}
+.fbJewel #FBPBUTT {
+  font-size: 12px !important;
+  color: #fff !important;
+  line-height: 27px !important;
+  top: -2px !important;
+  left: 0px;
+  position: relative;
+  text-decoration: none;
+  padding: 6px 11px 6px;
+  margin-right: 0px;
+  border-radius: 2px;
+}
+.fbJewel #FBPBUTT.jewelButton {
+  font-weight: 600 !important;
+}
+.fbJewel #FBPBUTT:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.fbJewel #FBPBUTT:before {
+  background: #385490;
+  background: rgba(0, 0, 0, 0.1);
+  content: '';
+  height: 17px;
+  left: -1px;
+  position: absolute;
+  top: 5px;
+  width: 1px;
+}
+/* /* */
+#content {
+padding-top: 42px !important;
+}
+#contentArea, #rightCol, #headerArea, #pages_manager_top_bar_container {
+margin-top: 0 !important;
+* {
+  font-family: -apple-system-font, Calibri, sans-serif !important;
+}
+*:after {
+  border: none !important;
+}
+
+html body {
+  font-size: 16px;
+}
+
+
+._5pbw, ._5pbx {
+  font-size: 18px;
+}
+
+#contentCol * {
+  font-family: Athelas, serif !important;
+}
+/* */
