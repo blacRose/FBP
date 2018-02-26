@@ -275,6 +275,10 @@ body.timelineLayout #contentCol #contentArea {
 	width: calc(100vw - 227px) !important;
 }
 
+body.timelineLayout.hasLeftCol #contentCol #contentArea {
+	width: calc(100vw - 454px) !important;
+}
+
 .phm #mainContainer #contentCol {
 	margin: 0 !important;
 }
