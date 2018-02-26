@@ -1,4 +1,4 @@
-._5pcb #substream_0, ._5pcb #substream_1, ._5pcb h2, #topicFeedsNav, #appsNav, #interestsNav, #developerNav, #navItem_page_408502197558, #navItem_357937250942127, #navItem_188619144602540, #navItem_400915586638539, #navItem_983686418327131, #navItem_230259100322928, #fbpurityinfobar, #navItem_6802152230, #navItem_285162308271788, #rightCol, .fbSidebarGripper, ._1vc-, ._5umn, .hidepostlink {
+._5pcb #substream_0, ._5pcb #substream_1, ._5pcb h2, #topicFeedsNav, #appsNav, #interestsNav, #developerNav, #navItem_page_408502197558, #navItem_357937250942127, #navItem_188619144602540, #navItem_400915586638539, #navItem_983686418327131, #navItem_230259100322928, #fbpurityinfobar, #navItem_6802152230, #navItem_285162308271788, #rightCol, .fbSidebarGripper, ._1vc-, ._5umn, .hidepostlink, #pagelet_group_mall ._5pcb > div[role=feed] {
 	display: none;
 }
 
@@ -169,7 +169,7 @@ html body.hasLeftCol #globalContainer {
 }
 
 @media screen and (min-width: 1270px) {
-	.newsFeedComposer ._5pcb > div > div > div > div > div > div > div, #pagelet_group_mall ._5pcb > div[role=feed], .fbTimelineCapsule #recent_capsule_container ol {
+	.newsFeedComposer ._5pcb > div > div > div > div > div > div > div, #pagelet_group_mall ._5pcb, .fbTimelineCapsule #recent_capsule_container ol {
 		display: grid;
 		grid-template-columns: 1fr 1fr;
 	}
