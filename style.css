@@ -1,4 +1,4 @@
-._5pcb #substream_0, ._5pcb #substream_1, ._5pcb h2, #topicFeedsNav, #appsNav, #interestsNav, #developerNav, #navItem_page_408502197558, #navItem_357937250942127, #navItem_188619144602540, #navItem_400915586638539, #navItem_983686418327131, #navItem_230259100322928, #fbpurityinfobar, #navItem_6802152230, #navItem_285162308271788, #rightCol, .fbSidebarGripper, ._1vc-, ._5umn, .hidepostlink, body._2yq .fbChatSidebar {
+._5pcb #substream_0, ._5pcb #substream_1, ._5pcb h2, #topicFeedsNav, #appsNav, #interestsNav, #developerNav, #navItem_page_408502197558, #navItem_357937250942127, #navItem_188619144602540, #navItem_400915586638539, #navItem_983686418327131, #navItem_230259100322928, #fbpurityinfobar, #navItem_6802152230, #navItem_285162308271788, #rightCol, .fbSidebarGripper, ._1vc-, ._5umn, .hidepostlink {
 	display: none;
 }
 
@@ -177,7 +177,7 @@ html body.hasLeftCol #globalContainer {
 		width: 100% !important;
 		padding: 0 !important;
 		float: none !important;
-		max-width: calc(50vw - 200px);
+		max-width: calc(50vw - 205px);
 	}
 	.async_saving ._5usc, #more_pager_pagelet_5670f212047cd9a07517991 {
 		display: none !important;
