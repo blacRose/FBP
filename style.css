@@ -177,7 +177,7 @@ html body.hasLeftCol #globalContainer {
 		width: 100% !important;
 		padding: 0 !important;
 		float: none !important;
-		max-width: calc(50vw - 205px);
+		max-width: calc(50vw - 105px);
 	}
 	.async_saving ._5usc, #more_pager_pagelet_5670f212047cd9a07517991 {
 		display: none !important;
