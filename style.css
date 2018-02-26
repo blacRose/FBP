@@ -169,7 +169,7 @@ html body.hasLeftCol #globalContainer {
 }
 
 @media screen and (min-width: 1270px) {
-	.newsFeedComposer ._5pcb > div > div > div > div > div > div > div, #pagelet_group_mall ._5pcb, .fbTimelineCapsule #recent_capsule_container ol {
+	.newsFeedComposer ._5pcb > div > div > div > div > div > div > div, #pagelet_group_mall ._5pcb > div[role=feed], .fbTimelineCapsule #recent_capsule_container ol {
 		display: grid;
 		grid-template-columns: 1fr 1fr;
 	}
