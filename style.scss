@@ -62,7 +62,7 @@ body ._14i5 {
 	}
 }
 li._33c._4af div.anchorContainer *, #notifications_stream div._bqf._2vp7._2pi8 *, li.jewelItemNew *, #content div[data-testid="NOTIF_LIST_TEST_ID"] li._4vba {
-    background-color: #ffc0cb !important;
+	background-color: #ffc0cb !important;
 }
 ._3zm- {
 	&:hover a, & a:focus, & a._2myk {
@@ -105,9 +105,9 @@ html ._5vb_._5vb_.hasLeftCol .hasRightCol div#contentArea, .fbTimelineTwoColumn,
 	width: 100% !important;
 }
 html body #mainContainer {
-		display: grid !important;
-		grid-template-columns: 0 1fr;
-	}
+	display: grid !important;
+	grid-template-columns: 0 1fr;
+}
 html body.hasLeftCol {
 	#mainContainer {
 		grid-template-columns: 207px 1fr;
@@ -151,8 +151,8 @@ html body.hasLeftCol {
 @media screen and (min-width: 2155px) {
 	html body .2yq #mainContainer, body #streamPagelet, html body #mainContainer #contentArea, body #mainContainer #contentCol, body #content {
 		width: 100% !important;
-    min-width: 100% !important;
-    margin: 0 !important;
+		min-width: 100% !important;
+		margin: 0 !important;
 	}
 	.newsFeedComposer ._5pcb > div > div > div > div > div > div > div, #pagelet_group_mall ._5pcb, .fbTimelineCapsule #recent_capsule_container ol {
 		grid-template-columns: 1fr 1fr 1fr;
@@ -228,9 +228,9 @@ html body.hasLeftCol {
 	body.timelineLayout & #contentArea {
 		width: calc(100vw - 227px)!important;
 	}
-		body.timelineLayout.hasLeftCol & #contentArea {
-			width: calc(100vw - 454px)!important;
-		}
+	body.timelineLayout.hasLeftCol & #contentArea {
+		width: calc(100vw - 454px)!important;
+	}
 	.phm #mainContainer & {
 		margin: 0 !important;
 	}
@@ -280,6 +280,6 @@ div._4-u2.mvm._495i {
 	left: 0;
 }
 #globalContainer ._2pie #mainContainer #contentCol {
-	width: calc(100% - 4px) !important;
+	width: calc(100% - 227px) !important;
 	margin: auto;
 }
