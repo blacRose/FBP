@@ -131,6 +131,11 @@ html body #mainContainer {
 	grid-template-columns: 0 1fr;
 }
 
+html body._-kb .fb_content .clearfix[itemscope=itemscope] {
+	display: grid !important;
+	grid-template-columns: 175px 1fr 15px;
+}
+
 html body.hasLeftCol #mainContainer {
 	grid-template-columns: 207px 1fr;
 }
