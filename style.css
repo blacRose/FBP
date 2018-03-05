@@ -111,9 +111,9 @@ html ._5vb_._5vb_.hasLeftCol .hasRightCol div#contentArea, .fbTimelineTwoColumn,
 }
 
 /* line 78, Users/user/github/FBP/style.scss */
-#globalContainer, body #mainContainer #contentCol, #mainContainer #contentArea {
+#globalContainer, body #mainContainer #contentCol, #mainContainer #contentArea, ._2yq #contentArea {
 	min-width: 784px !important;
-	padding-top: 42px;
+	padding-top: 42px !important;
 	margin: auto !important;
 }
 
@@ -427,4 +427,14 @@ div._4-u2.mvm._495i {
 #globalContainer ._2pie #mainContainer #contentCol {
 	width: calc(100vw - 227px) !important;
 	margin: auto;
+}
+
+/* line 298, Users/user/github/FBP/style.scss */
+._33f {
+	width: 100%;
+}
+
+/* line 301, Users/user/github/FBP/style.scss */
+.livetimestamp {
+	font-size: 10px !important;
 }

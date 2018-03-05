@@ -75,9 +75,9 @@ li._33c._4af div.anchorContainer *, #notifications_stream div._bqf._2vp7._2pi8 *
 html ._5vb_._5vb_.hasLeftCol .hasRightCol div#contentArea, .fbTimelineTwoColumn, #globalContainer {
 	width: auto !important;
 }
-#globalContainer, body #mainContainer #contentCol, #mainContainer #contentArea {
+#globalContainer, body #mainContainer #contentCol, #mainContainer #contentArea, ._2yq #contentArea {
 	min-width: 784px !important;
-	padding-top: 42px;
+	padding-top: 42px !important;
 	margin: auto !important;
 }
 ._4k20, .UFICommentContent ._2rn3, UFICommentContent ._4-eo {
@@ -294,4 +294,10 @@ div._4-u2.mvm._495i {
 #globalContainer ._2pie #mainContainer #contentCol {
 	width: calc(100vw - 227px) !important;
 	margin: auto;
+}
+._33f {
+	width: 100%;
+}
+.livetimestamp {
+	font-size: 10px !important;
 }
