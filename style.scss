@@ -1,5 +1,9 @@
-._5pcb #substream_0, ._5pcb #substream_1, ._5pcb h2, #topicFeedsNav, #appsNav, #interestsNav, #developerNav, #navItem_page_408502197558, #navItem_357937250942127, #navItem_188619144602540, #navItem_400915586638539, #navItem_983686418327131, #navItem_230259100322928, #fbpurityinfobar, #navItem_6802152230, #navItem_285162308271788, #rightCol, .fbSidebarGripper, ._1vc-, ._5umn, .hidepostlink, body._2yq .fbChatSidebar {
+._5pcb #substream_0, ._5pcb #substream_1, ._5pcb h2, #topicFeedsNav, #appsNav, #interestsNav, #developerNav, #navItem_page_408502197558, #navItem_357937250942127, #navItem_188619144602540, #navItem_400915586638539, #navItem_983686418327131, #navItem_230259100322928, #fbpurityinfobar, #navItem_6802152230, #navItem_285162308271788, #rightCol,
+.fbSidebarGripper, ._1vc-, ._5umn, .hidepostlink, body._2yq .fbChatSidebar, ._5vb_.hasLeftCol #leftCol {
 	display: none;
+}
+._5vb_.hasLeftCol.newsfeed #leftCol {
+	display: block;
 }
 .fbJewel {
 	margin-left: -17px !important;
@@ -72,13 +76,15 @@ li._33c._4af div.anchorContainer *, #notifications_stream div._bqf._2vp7._2pi8 *
 		background-color: rgba(0, 0, 0, 0.1) !important;
 	}
 }
-html ._5vb_._5vb_.hasLeftCol .hasRightCol div#contentArea, .fbTimelineTwoColumn, #globalContainer {
+html ._5vb_.hasLeftCol .hasRightCol div#contentArea, .fbTimelineTwoColumn, #globalContainer {
 	width: auto !important;
 }
 #globalContainer, body #mainContainer #contentCol, #mainContainer #contentArea, ._2yq #contentArea {
 	min-width: 784px !important;
-	padding-top: 42px !important;
 	margin: auto !important;
+}
+#globalContainer {
+	padding-top: 42px !important;
 }
 ._4k20, .UFICommentContent ._2rn3, UFICommentContent ._4-eo {
 	width: 100% !important;
@@ -293,11 +299,19 @@ div._4-u2.mvm._495i {
 }
 #globalContainer ._2pie #mainContainer #contentCol {
 	width: calc(100vw - 227px) !important;
-	margin: auto;
+	._5vb_.hasLeftCol & {
+		margin: 0 113px !important;
+	}
+	body._5vb_.hasLeftCol.newsfeed div & {
+		margin: auto !important;
+	}
 }
 ._33f {
 	width: 100%;
 }
 .livetimestamp {
 	font-size: 10px !important;
+}
+body ._bui ._5afe .linkWrap {
+	max-width: 146px;
 }

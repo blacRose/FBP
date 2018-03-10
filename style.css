@@ -1,15 +1,21 @@
 /* line 1, Users/user/github/FBP/style.scss */
-._5pcb #substream_0, ._5pcb #substream_1, ._5pcb h2, #topicFeedsNav, #appsNav, #interestsNav, #developerNav, #navItem_page_408502197558, #navItem_357937250942127, #navItem_188619144602540, #navItem_400915586638539, #navItem_983686418327131, #navItem_230259100322928, #fbpurityinfobar, #navItem_6802152230, #navItem_285162308271788, #rightCol, .fbSidebarGripper, ._1vc-, ._5umn, .hidepostlink, body._2yq .fbChatSidebar {
+._5pcb #substream_0, ._5pcb #substream_1, ._5pcb h2, #topicFeedsNav, #appsNav, #interestsNav, #developerNav, #navItem_page_408502197558, #navItem_357937250942127, #navItem_188619144602540, #navItem_400915586638539, #navItem_983686418327131, #navItem_230259100322928, #fbpurityinfobar, #navItem_6802152230, #navItem_285162308271788, #rightCol,
+.fbSidebarGripper, ._1vc-, ._5umn, .hidepostlink, body._2yq .fbChatSidebar, ._5vb_.hasLeftCol #leftCol {
 	display: none;
 }
 
-/* line 4, Users/user/github/FBP/style.scss */
+/* line 5, Users/user/github/FBP/style.scss */
+._5vb_.hasLeftCol.newsfeed #leftCol {
+	display: block;
+}
+
+/* line 8, Users/user/github/FBP/style.scss */
 .fbJewel {
 	margin-left: -17px !important;
 	margin-top: 10px !important;
 }
 
-/* line 7, Users/user/github/FBP/style.scss */
+/* line 11, Users/user/github/FBP/style.scss */
 .fbJewel #FBPBUTT {
 	font-size: 12px !important;
 	color: #fff !important;
@@ -23,17 +29,17 @@
 	border-radius: 2px;
 }
 
-/* line 18, Users/user/github/FBP/style.scss */
+/* line 22, Users/user/github/FBP/style.scss */
 .fbJewel #FBPBUTT.jewelButton {
 	font-weight: 600 !important;
 }
 
-/* line 21, Users/user/github/FBP/style.scss */
+/* line 25, Users/user/github/FBP/style.scss */
 .fbJewel #FBPBUTT:hover {
 	background-color: rgba(0, 0, 0, 0.1);
 }
 
-/* line 24, Users/user/github/FBP/style.scss */
+/* line 28, Users/user/github/FBP/style.scss */
 .fbJewel #FBPBUTT:before {
 	background: #385490;
 	background: rgba(0, 0, 0, 0.1);
@@ -45,206 +51,210 @@
 	width: 1px;
 }
 
-/* line 36, Users/user/github/FBP/style.scss */
+/* line 40, Users/user/github/FBP/style.scss */
 * {
 	font-family: -apple-system-font, Calibri, sans-serif !important;
 }
 
-/* line 38, Users/user/github/FBP/style.scss */
+/* line 42, Users/user/github/FBP/style.scss */
 *:after {
 	border: none !important;
 }
 
-/* line 42, Users/user/github/FBP/style.scss */
+/* line 46, Users/user/github/FBP/style.scss */
 html body {
 	font-size: 16px;
 }
 
-/* line 46, Users/user/github/FBP/style.scss */
+/* line 50, Users/user/github/FBP/style.scss */
 body ._14i5 {
 	right: 0;
 }
 
-/* line 49, Users/user/github/FBP/style.scss */
+/* line 53, Users/user/github/FBP/style.scss */
 ._5pbw, ._5pbx {
 	font-size: 18px;
 }
 
-/* line 52, Users/user/github/FBP/style.scss */
+/* line 56, Users/user/github/FBP/style.scss */
 #contentCol * {
 	font-family: Athelas, serif !important;
 }
 
-/* line 55, Users/user/github/FBP/style.scss */
+/* line 59, Users/user/github/FBP/style.scss */
 ._42ef {
 	overflow: hidden;
 }
 
-/* line 58, Users/user/github/FBP/style.scss */
+/* line 62, Users/user/github/FBP/style.scss */
 ._5r69 {
 	width: 80%;
 }
 
-/* line 60, Users/user/github/FBP/style.scss */
+/* line 64, Users/user/github/FBP/style.scss */
 ._5r69 .clearfix.mtm {
 	width: 100%;
 }
 
-/* line 64, Users/user/github/FBP/style.scss */
+/* line 68, Users/user/github/FBP/style.scss */
 li._33c._4af div.anchorContainer *, #notifications_stream div._bqf._2vp7._2pi8 *, li.jewelItemNew *, #content div[data-testid="NOTIF_LIST_TEST_ID"] li._4vba {
 	background-color: #ffc0cb !important;
 }
 
-/* line 68, Users/user/github/FBP/style.scss */
+/* line 72, Users/user/github/FBP/style.scss */
 ._3zm-:hover a, ._3zm- a:focus, ._3zm- a._2myk {
 	background: transparent;
 }
 
-/* line 71, Users/user/github/FBP/style.scss */
+/* line 75, Users/user/github/FBP/style.scss */
 ._3zm- a:hover {
 	background-color: rgba(0, 0, 0, 0.1) !important;
 }
 
-/* line 75, Users/user/github/FBP/style.scss */
-html ._5vb_._5vb_.hasLeftCol .hasRightCol div#contentArea, .fbTimelineTwoColumn, #globalContainer {
+/* line 79, Users/user/github/FBP/style.scss */
+html ._5vb_.hasLeftCol .hasRightCol div#contentArea, .fbTimelineTwoColumn, #globalContainer {
 	width: auto !important;
 }
 
-/* line 78, Users/user/github/FBP/style.scss */
+/* line 82, Users/user/github/FBP/style.scss */
 #globalContainer, body #mainContainer #contentCol, #mainContainer #contentArea, ._2yq #contentArea {
 	min-width: 784px !important;
-	padding-top: 42px !important;
 	margin: auto !important;
 }
 
-/* line 83, Users/user/github/FBP/style.scss */
+/* line 86, Users/user/github/FBP/style.scss */
+#globalContainer {
+	padding-top: 42px !important;
+}
+
+/* line 89, Users/user/github/FBP/style.scss */
 ._4k20, .UFICommentContent ._2rn3, UFICommentContent ._4-eo {
 	width: 100% !important;
 }
 
-/* line 86, Users/user/github/FBP/style.scss */
+/* line 92, Users/user/github/FBP/style.scss */
 ._46-i, .uiScaledImageContainer img {
 	border-radius: 10px;
 }
 
-/* line 89, Users/user/github/FBP/style.scss */
+/* line 95, Users/user/github/FBP/style.scss */
 .userContentWrapper a[rel="theater"], ._6l-, ._6m2, .clearfix, ._2a2q {
 	margin: 0 auto;
 }
 
-/* line 92, Users/user/github/FBP/style.scss */
+/* line 98, Users/user/github/FBP/style.scss */
 ._42nr {
 	display: grid;
 	grid-template-columns: 1fr 7em 7em 7em 1fr;
 }
 
-/* line 95, Users/user/github/FBP/style.scss */
+/* line 101, Users/user/github/FBP/style.scss */
 ._42nr:before {
 	content: " ";
 }
 
-/* line 100, Users/user/github/FBP/style.scss */
+/* line 106, Users/user/github/FBP/style.scss */
 .userContentWrapper .mtm {
 	width: 470px;
 	margin: 10px auto 0 auto;
 }
 
-/* line 105, Users/user/github/FBP/style.scss */
+/* line 111, Users/user/github/FBP/style.scss */
 #headerArea, #contentArea, #u_0_2x {
 	width: 100% !important;
 }
 
-/* line 108, Users/user/github/FBP/style.scss */
+/* line 114, Users/user/github/FBP/style.scss */
 html body #mainContainer {
 	display: grid !important;
 	grid-template-columns: 0 1fr;
 }
 
-/* line 112, Users/user/github/FBP/style.scss */
+/* line 118, Users/user/github/FBP/style.scss */
 html body._-kb .fb_content .clearfix[itemscope=itemscope] {
 	display: grid !important;
 	grid-template-columns: 175px 1fr 15px;
 }
 
-/* line 117, Users/user/github/FBP/style.scss */
+/* line 123, Users/user/github/FBP/style.scss */
 html body.hasLeftCol #mainContainer {
 	grid-template-columns: 207px 1fr;
 }
 
-/* line 120, Users/user/github/FBP/style.scss */
+/* line 126, Users/user/github/FBP/style.scss */
 html body.hasLeftCol #leftCol > div > div > div {
 	width: 205px !important;
 }
 
-/* line 123, Users/user/github/FBP/style.scss */
+/* line 129, Users/user/github/FBP/style.scss */
 html body.hasLeftCol #globalContainer {
 	width: calc(100vw - 227px) !important;
 	margin: 2px !important;
 }
 
 @media screen and (max-width: 1700px) {
-	/* line 128, Users/user/github/FBP/style.scss */
+	/* line 134, Users/user/github/FBP/style.scss */
 	.coverWrap {
 		min-height: 275px !important;
 	}
 }
 
 @media screen and (max-width: 1050px) {
-	/* line 128, Users/user/github/FBP/style.scss */
+	/* line 134, Users/user/github/FBP/style.scss */
 	.coverWrap {
 		min-height: 250px !important;
 	}
 }
 
 @media screen and (min-width: 1700px) {
-	/* line 128, Users/user/github/FBP/style.scss */
+	/* line 134, Users/user/github/FBP/style.scss */
 	.coverWrap {
 		min-height: 320px !important;
 	}
 }
 
 @media screen and (min-width: 2155px) {
-	/* line 128, Users/user/github/FBP/style.scss */
+	/* line 134, Users/user/github/FBP/style.scss */
 	.coverWrap {
 		min-height: 400px !important;
 	}
 }
 
 @media screen and (min-width: 1270px) {
-	/* line 143, Users/user/github/FBP/style.scss */
+	/* line 149, Users/user/github/FBP/style.scss */
 	.newsFeedComposer ._5pcb > div > div > div > div > div > div > div, #pagelet_group_mall ._5pcb, .fbTimelineCapsule #recent_capsule_container ol {
 		display: grid;
 		grid-template-columns: 1fr 1fr;
 	}
-	/* line 147, Users/user/github/FBP/style.scss */
+	/* line 153, Users/user/github/FBP/style.scss */
 	.groupJumpLayout ._5pcb > div {
 		width: 100% !important;
 		padding: 0 !important;
 		float: none !important;
 		max-width: calc(50vw - 105px);
 	}
-	/* line 153, Users/user/github/FBP/style.scss */
+	/* line 159, Users/user/github/FBP/style.scss */
 	.async_saving ._5usc, #more_pager_pagelet_5670f212047cd9a07517991 {
 		display: none !important;
 	}
 }
 
 @media screen and (min-width: 2155px) {
-	/* line 158, Users/user/github/FBP/style.scss */
+	/* line 164, Users/user/github/FBP/style.scss */
 	html body .2yq #mainContainer, body #streamPagelet, html body #mainContainer #contentArea, body #mainContainer #contentCol, body #content {
 		width: 100% !important;
 		min-width: 100% !important;
 		margin: 0 !important;
 	}
-	/* line 163, Users/user/github/FBP/style.scss */
+	/* line 169, Users/user/github/FBP/style.scss */
 	.groupJumpLayout ._5pcb > div {
 		max-width: calc(33vw - 147px);
 	}
-	/* line 166, Users/user/github/FBP/style.scss */
+	/* line 172, Users/user/github/FBP/style.scss */
 	.newsFeedComposer ._5pcb > div > div > div > div > div > div > div, #pagelet_group_mall ._5pcb, .fbTimelineCapsule #recent_capsule_container ol {
 		grid-template-columns: 1fr 1fr 1fr;
 	}
-	/* line 169, Users/user/github/FBP/style.scss */
+	/* line 175, Users/user/github/FBP/style.scss */
 	html body._2yq #globalContainer {
 		width: calc(100vw - 227px) !important;
 		margin: 2px !important;
@@ -252,36 +262,36 @@ html body.hasLeftCol #globalContainer {
 }
 
 @media screen and (min-width: 3001px) {
-	/* line 175, Users/user/github/FBP/style.scss */
+	/* line 181, Users/user/github/FBP/style.scss */
 	.newsFeedComposer ._5pcb > div > div > div > div > div > div > div, #pagelet_group_mall ._5pcb, .fbTimelineCapsule #recent_capsule_container ol {
 		grid-template-columns: 1fr 1fr 1fr 1fr;
 	}
-	/* line 178, Users/user/github/FBP/style.scss */
+	/* line 184, Users/user/github/FBP/style.scss */
 	.groupJumpLayout ._5pcb > div {
 		max-width: calc(50vw - 110px);
 	}
-	/* line 181, Users/user/github/FBP/style.scss */
+	/* line 187, Users/user/github/FBP/style.scss */
 	.newsFeedComposer ._5pcb > div > div > div > div > div > div > div > div:nth-child(5n) {
 		display: none;
 	}
 }
 
-/* line 186, Users/user/github/FBP/style.scss */
+/* line 192, Users/user/github/FBP/style.scss */
 .fbTimelineCapsule ._5nb8 {
 	width: calc(100% - 338px);
 }
 
-/* line 189, Users/user/github/FBP/style.scss */
+/* line 195, Users/user/github/FBP/style.scss */
 .fbTimelineCapsule, .fbTimelineCapsule div {
 	width: auto !important;
 }
 
-/* line 193, Users/user/github/FBP/style.scss */
+/* line 199, Users/user/github/FBP/style.scss */
 ._4d6h._4p1p {
 	padding: 10px 0 !important;
 }
 
-/* line 196, Users/user/github/FBP/style.scss */
+/* line 202, Users/user/github/FBP/style.scss */
 .dialog_body {
 	position: fixed;
 	bottom: 0;
@@ -292,7 +302,7 @@ html body.hasLeftCol #globalContainer {
 	display: block;
 }
 
-/* line 205, Users/user/github/FBP/style.scss */
+/* line 211, Users/user/github/FBP/style.scss */
 #FBPNewsAlert {
 	position: fixed !important;
 	bottom: 0 !important;
@@ -305,136 +315,150 @@ html body.hasLeftCol #globalContainer {
 	display: none !important;
 }
 
-/* line 215, Users/user/github/FBP/style.scss */
+/* line 221, Users/user/github/FBP/style.scss */
 #FBPNewsAlert a#FBPDismissNewsAlert {
 	font-size: 32px;
 }
 
-/* line 219, Users/user/github/FBP/style.scss */
+/* line 225, Users/user/github/FBP/style.scss */
 .pop_container_advanced {
 	background: transparent;
 }
 
-/* line 222, Users/user/github/FBP/style.scss */
+/* line 228, Users/user/github/FBP/style.scss */
 .pop_content .dialog_content {
 	background: transparent;
 	border: none;
 }
 
-/* line 226, Users/user/github/FBP/style.scss */
+/* line 232, Users/user/github/FBP/style.scss */
 .generic_dialog_modal, .generic_dialog_fixed_overflow {
 	background: transparent;
 }
 
-/* line 229, Users/user/github/FBP/style.scss */
+/* line 235, Users/user/github/FBP/style.scss */
 ._3qx ._3ixn, .stageWrapper .stage {
 	border-radius: 10px 0 0 10px;
 	background-color: rgba(0, 0, 0, 0.2) !important;
 }
 
-/* line 233, Users/user/github/FBP/style.scss */
+/* line 239, Users/user/github/FBP/style.scss */
 .stageWrapper img {
 	border-radius: 10px;
 }
 
-/* line 236, Users/user/github/FBP/style.scss */
+/* line 242, Users/user/github/FBP/style.scss */
 ._4d3w .photoUfiContainer {
 	border-radius: 0 10px 10px 0;
 }
 
-/* line 240, Users/user/github/FBP/style.scss */
+/* line 246, Users/user/github/FBP/style.scss */
 body.timelineLayout #contentCol #contentArea {
 	width: calc(100vw - 227px) !important;
 }
 
-/* line 243, Users/user/github/FBP/style.scss */
+/* line 249, Users/user/github/FBP/style.scss */
 body.timelineLayout.hasLeftCol #contentCol #contentArea {
 	width: calc(100vw - 454px) !important;
 }
 
-/* line 246, Users/user/github/FBP/style.scss */
+/* line 252, Users/user/github/FBP/style.scss */
 .phm #mainContainer #contentCol {
 	margin: 0 !important;
 }
 
-/* line 250, Users/user/github/FBP/style.scss */
+/* line 256, Users/user/github/FBP/style.scss */
 .fbTimelineCapsule > div {
 	width: 100% !important;
 }
 
-/* line 253, Users/user/github/FBP/style.scss */
+/* line 259, Users/user/github/FBP/style.scss */
 ._55bh div, .fbJewel {
 	float: left;
 }
 
-/* line 257, Users/user/github/FBP/style.scss */
+/* line 263, Users/user/github/FBP/style.scss */
 ._dcs, ._dcs ._5v3q ._4-eo {
 	box-shadow: none !important;
 }
 
-/* line 260, Users/user/github/FBP/style.scss */
+/* line 266, Users/user/github/FBP/style.scss */
 ._dcs .__c_:after, ._dcs ._6l-:after, ._dcs .scaledImageFitWidth {
 	border-color: transparent !important;
 }
 
-/* line 264, Users/user/github/FBP/style.scss */
+/* line 270, Users/user/github/FBP/style.scss */
 div._4-u2.mvm._495i {
 	width: 175px !important;
 	top: -31px;
 	margin-left: 8px;
 }
 
-/* line 269, Users/user/github/FBP/style.scss */
+/* line 275, Users/user/github/FBP/style.scss */
 ._5r69, .uiScaledImageContainer, ._5v3q ._4-eo {
 	width: 469px;
 	margin: 0 auto;
 }
 
-/* line 273, Users/user/github/FBP/style.scss */
+/* line 279, Users/user/github/FBP/style.scss */
 ._2yq #globalContainer {
 	width: auto !important;
 }
 
-/* line 276, Users/user/github/FBP/style.scss */
+/* line 282, Users/user/github/FBP/style.scss */
 #entity_sidebar, .f_1iseox4w4t #u_0_4._2pie, .f_1iseox4w4t ._2pie._14i5._1qkx, .f_1iseox4w4t ._1qkq, #u_0_0._r_m {
 	width: 100% !important;
 	position: static !important;
 }
 
-/* line 280, Users/user/github/FBP/style.scss */
+/* line 286, Users/user/github/FBP/style.scss */
 #mainContainer, .pagesTimelineLayout #mainContainer > div, .pagesTimelineLayout #mainContainer > div #content_container > div, .f_1iseox4w4t .fb_content > div.clearfix, .f_1iseox4w4t #content_container > div.clearfix {
 	display: grid;
 	grid-template-columns: 180px 1fr 10px;
 }
 
-/* line 284, Users/user/github/FBP/style.scss */
+/* line 290, Users/user/github/FBP/style.scss */
 .pagesTimelineLayout #mainContainer > div #content_container > div {
 	width: 100% !important;
 	grid-template-columns: 1fr 308px;
 }
 
-/* line 288, Users/user/github/FBP/style.scss */
+/* line 294, Users/user/github/FBP/style.scss */
 .f_1iseox4w4t #content_container > div.clearfix {
 	grid-template-columns: 300px 1fr 30px;
 }
 
-/* line 291, Users/user/github/FBP/style.scss */
+/* line 297, Users/user/github/FBP/style.scss */
 #leftCol > div > div {
 	left: 0;
 }
 
-/* line 294, Users/user/github/FBP/style.scss */
+/* line 300, Users/user/github/FBP/style.scss */
 #globalContainer ._2pie #mainContainer #contentCol {
 	width: calc(100vw - 227px) !important;
-	margin: auto;
 }
 
-/* line 298, Users/user/github/FBP/style.scss */
+/* line 302, Users/user/github/FBP/style.scss */
+._5vb_.hasLeftCol #globalContainer ._2pie #mainContainer #contentCol {
+	margin: 0 113px !important;
+}
+
+/* line 305, Users/user/github/FBP/style.scss */
+body._5vb_.hasLeftCol.newsfeed div #globalContainer ._2pie #mainContainer #contentCol {
+	margin: auto !important;
+}
+
+/* line 309, Users/user/github/FBP/style.scss */
 ._33f {
 	width: 100%;
 }
 
-/* line 301, Users/user/github/FBP/style.scss */
+/* line 312, Users/user/github/FBP/style.scss */
 .livetimestamp {
 	font-size: 10px !important;
+}
+
+/* line 315, Users/user/github/FBP/style.scss */
+body ._bui ._5afe .linkWrap {
+	max-width: 146px;
 }
