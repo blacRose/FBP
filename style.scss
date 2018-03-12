@@ -1,4 +1,4 @@
-._5pcb #substream_0, ._5pcb #substream_1, ._5pcb h2, #topicFeedsNav, #appsNav, #interestsNav, #developerNav, #navItem_page_408502197558, #navItem_357937250942127, #navItem_188619144602540, #navItem_400915586638539, #navItem_983686418327131, #navItem_230259100322928, #fbpurityinfobar, #navItem_6802152230, #navItem_285162308271788, #rightCol,
+._5pcb h2, #topicFeedsNav, #appsNav, #interestsNav, #developerNav, #navItem_page_408502197558, #navItem_357937250942127, #navItem_188619144602540, #navItem_400915586638539, #navItem_983686418327131, #navItem_230259100322928, #fbpurityinfobar, #navItem_6802152230, #navItem_285162308271788, #rightCol,
 .fbSidebarGripper, ._1vc-, ._5umn, .hidepostlink, body._2yq .fbChatSidebar, ._5vb_.hasLeftCol #leftCol {
 	display: none;
 }
@@ -146,7 +146,7 @@ html body.hasLeftCol {
 	}
 }
 @media screen and (min-width:1270px) {
-	.newsFeedComposer ._5pcb > div > div > div > div > div > div > div, #pagelet_group_mall ._5pcb, .fbTimelineCapsule #recent_capsule_container ol {
+	.newsFeedComposer ._5pcb > div > div > div > div > div > div > div, #pagelet_group_mall ._5pcb, .fbTimelineCapsule #recent_capsule_container ol, .newsfeed div[role=feed] {
 		display: grid;
 		grid-template-columns: 1fr 1fr;
 	}
@@ -169,7 +169,7 @@ html body.hasLeftCol {
 	.groupJumpLayout ._5pcb > div  {
 		max-width: calc(33vw - 147px);
 	}
-	.newsFeedComposer ._5pcb > div > div > div > div > div > div > div, #pagelet_group_mall ._5pcb, .fbTimelineCapsule #recent_capsule_container ol {
+	.newsFeedComposer ._5pcb > div > div > div > div > div > div > div, #pagelet_group_mall ._5pcb, .fbTimelineCapsule #recent_capsule_container ol, .newsfeed div[role=feed] {
 		grid-template-columns: 1fr 1fr 1fr;
 	}
 	html body._2yq #globalContainer {
@@ -178,7 +178,7 @@ html body.hasLeftCol {
 	}
 }
 @media screen and (min-width: 3001px) {
-	.newsFeedComposer ._5pcb > div > div > div > div > div > div > div, #pagelet_group_mall ._5pcb, .fbTimelineCapsule #recent_capsule_container ol {
+	.newsFeedComposer ._5pcb > div > div > div > div > div > div > div, #pagelet_group_mall ._5pcb, .fbTimelineCapsule #recent_capsule_container ol, .newsfeed div[role=feed] {
 		grid-template-columns: 1fr 1fr 1fr 1fr;
 	}
 	.groupJumpLayout ._5pcb > div  {
