@@ -462,3 +462,15 @@ body._5vb_.hasLeftCol.newsfeed div #globalContainer ._2pie #mainContainer #conte
 body ._bui ._5afe .linkWrap {
 	max-width: 146px;
 }
+
+/* line 318, Users/user/github/FBP/style.scss */
+body.hasLeftCol [data-referrer="pagelet_group_mall"] ._lwx > div {
+	width: 100% !important;
+}
+
+/* line 320, Users/user/github/FBP/style.scss */
+body.hasLeftCol [data-referrer="pagelet_group_mall"] ._lwx > div ._5pcb {
+	display: block !important;
+	width: 50% !important;
+	margin: 0 auto !important;
+}
